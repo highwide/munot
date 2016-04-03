@@ -1,0 +1,5 @@
+.message
+  = "You: #{message}"
+- if bot.present?
+  .reply
+    = "#{bot[:name]}: #{bot[:reply]}"
